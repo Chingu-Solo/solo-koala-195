@@ -1,0 +1,42 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 30px 0;
+}
+
+.days {
+	display: flex;
+	flex-wrap: wrap;
+	width: 85%;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.days div {
+	width: 14.28%;
+	text-align: center;
+	height: 70px;
+}
+
+.prev_month,
+.next_month {
+	opacity: 0.2;
+	transition: all 0.4s;
+}
+
+.prev_month:hover,
+.next_month:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.today {
+	font-size: 1.8em;
+	font-weight: 500;
+}
+
+.prev_month_day,
+.next_month_day {
+	opacity: 0.2;
+}

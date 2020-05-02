@@ -1,0 +1,19 @@
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+hr {
+	border: 3px solid black;
+	margin-bottom: 20px;
+}
+.week {
+	display: flex;
+	font-size: 1.8em;
+	font-weight: 400;
+}
+
+.week div {
+	width: 14.28%;
+	text-align: center;
+}

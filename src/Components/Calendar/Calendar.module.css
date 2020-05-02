@@ -1,20 +1,5 @@
 .container {
 	border: 2px solid blueviolet;
 	width: 65%;
-}
-
-.header {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.header h1 {
-	font-weight: 500;
-	font-size: 3em;
-}
-
-.header p {
-	font-weight: 300;
-	font-size: 2.5em;
+	padding: 50px 0;
 }
