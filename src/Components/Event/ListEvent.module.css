@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	margin-top: 20px;
+	padding: 0 10%;
+	height: 60%;
+}
+
+.list {
+	list-style: none;
+	width: 90%;
+	padding: 20px;
+	margin-left: 20px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 1.3em;
+	z-index: 1;
+}
+
+.vert_bar {
+	border-left: 5px solid #fff;
+}

@@ -9,8 +9,6 @@ const DateComponent = () => {
 		.toLocaleString("default", { month: "long" })
 		.toLocaleUpperCase();
 
-	console.log(month);
-
 	return (
 		<div className={classes.container}>
 			<span>{weekDay}</span>
