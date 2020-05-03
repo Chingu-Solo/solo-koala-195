@@ -1,0 +1,12 @@
+.container {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+}
+
+.container span {
+	font-size: 1.8em;
+	font-weight: 600;
+	z-index: 1;
+}
