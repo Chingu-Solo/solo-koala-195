@@ -1,7 +1,20 @@
 .container {
 	border: 2px solid cadetblue;
 	width: 35%;
+	background-image: url("http://localhost:3000/assets/images/autumn.jpg");
+	background-position: left;
+	background-size: cover;
+	position: relative;
+	z-index: -2;
 }
-.color {
-	color: cadetblue;
+
+.transBack {
+	background-image: linear-gradient(
+		rgba(255, 255, 255, 0.6),
+		rgba(255, 255, 255, 0)
+	);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
