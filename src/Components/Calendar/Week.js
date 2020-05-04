@@ -1,9 +1,8 @@
 import React from "react";
 import classes from "./Week.module.css";
 
-const week = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
-
-const Week = ({ date }) => {
+const Week = () => {
+	const week = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 	return (
 		<div className={classes.container}>
 			<hr />

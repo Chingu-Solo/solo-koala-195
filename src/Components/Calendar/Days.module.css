@@ -36,7 +36,10 @@
 	font-weight: 500;
 }
 
-.prev_month_day,
-.next_month_day {
+.not_curr {
 	opacity: 0.2;
+}
+
+.selected {
+	background-color: royalblue;
 }

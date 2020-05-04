@@ -1,22 +1,22 @@
 import React from "react";
 import classes from "./Months.module.css";
 
-const months = [
-	"Jan",
-	"Feb",
-	"Mar",
-	"Apr",
-	"May",
-	"Jun",
-	"Jul",
-	"Aug",
-	"Sep",
-	"Oct",
-	"Nov",
-	"Dec",
-];
-
 const Months = ({ date }) => {
+	const months = [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apr",
+		"May",
+		"Jun",
+		"Jul",
+		"Aug",
+		"Sep",
+		"Oct",
+		"Nov",
+		"Dec",
+	];
+
 	return (
 		<div className={classes.container}>
 			<div className={classes.month + " " + classes.prev_month}>
