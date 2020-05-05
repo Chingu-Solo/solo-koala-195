@@ -2,7 +2,7 @@ import React from "react";
 import SingnIn from "./SignIn";
 import Date from "./DateComponent";
 import ListEvent from "./ListEvent";
-import AddEvent from "./AddEvent";
+import Modal from "./Modal";
 import classes from "./Event.module.css";
 
 const Event = ({ date }) => {
@@ -12,7 +12,7 @@ const Event = ({ date }) => {
 			<SingnIn />
 			<Date date={date} />
 			<ListEvent />
-			<AddEvent />
+			<Modal />
 		</div>
 	);
 };

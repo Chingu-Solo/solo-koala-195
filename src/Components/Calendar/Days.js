@@ -1,30 +1,10 @@
 import React from "react";
 import classes from "./Days.module.css";
+import Day from "./Day";
 import * as utils from "../../utils/utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import uniqid from "uniqid";
-
-const Day = (props) => {
-	if (props.not_curr)
-		return <div className={classes["not_curr"]}>{props.day}</div>;
-	return (
-		<div
-			onClick={() => {
-				props.onDayClick(
-					props.day,
-					props.date.getMonth(),
-					props.date.getFullYear()
-				);
-			}}
-			className={`${props.today ? classes["today"] : ""} 
-			${props.selected ? classes["selected"] : ""}			
-			`}
-		>
-			{props.day}
-		</div>
-	);
-};
 
 const Days = ({ dateC, dateE, onArrowClick, onDayClick, selected }) => {
 	const days = utils.calendarDays(dateC).map((elm) => {

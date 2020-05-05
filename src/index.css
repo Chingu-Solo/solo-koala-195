@@ -3,3 +3,10 @@
 	font-family: "Source Sans Pro";
 	box-sizing: border-box;
 }
+
+html {
+	height: 100vh;
+}
+body {
+	min-height: 100%;
+}

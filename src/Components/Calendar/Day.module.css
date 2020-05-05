@@ -1,0 +1,12 @@
+.today {
+	font-size: 1.8em;
+	font-weight: 500;
+}
+
+.not_curr {
+	opacity: 0.2;
+}
+
+.selected {
+	background-color: rgba(0, 0, 0, 0.4);
+}
