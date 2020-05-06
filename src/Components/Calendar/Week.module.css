@@ -17,3 +17,9 @@ hr {
 	width: 14.28%;
 	text-align: center;
 }
+
+@media (max-width: 500px) {
+	.week {
+		font-size: 1.2em;
+	}
+}

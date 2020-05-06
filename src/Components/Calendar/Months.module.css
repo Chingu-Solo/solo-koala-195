@@ -20,3 +20,9 @@
 	font-size: 2em;
 	opacity: 0.3;
 }
+
+@media (max-width: 500px) {
+	.month {
+		width: 20%;
+	}
+}

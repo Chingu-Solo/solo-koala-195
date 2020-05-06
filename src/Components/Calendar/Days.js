@@ -34,11 +34,11 @@ const Days = ({ dateC, dateE, onArrowClick, onDayClick, selected }) => {
 	return (
 		<div className={classes.container}>
 			<div className={classes.prev_month} onClick={() => onArrowClick("prev")}>
-				<FontAwesomeIcon icon={faArrowLeft} size="3x" />
+				<FontAwesomeIcon icon={faArrowLeft} />
 			</div>
 			<div className={classes.days}>{days}</div>
 			<div className={classes.prev_month} onClick={() => onArrowClick("next")}>
-				<FontAwesomeIcon icon={faArrowRight} size="3x" />
+				<FontAwesomeIcon icon={faArrowRight} />
 			</div>
 		</div>
 	);
