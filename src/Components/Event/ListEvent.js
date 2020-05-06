@@ -7,7 +7,7 @@ const ListEvent = ({ events }) => {
 			<div className={classes.vert_bar} />
 			<ul className={classes.list}>
 				{events.map((e) => (
-					<li>{`${e.begin} ${e.title}`}</li>
+					<li key={e.id}>{`${e.begin} ${e.title}`}</li>
 				))}
 			</ul>
 		</div>

@@ -2,7 +2,7 @@
 	display: flex;
 	margin-top: 20px;
 	padding: 0 10%;
-	height: 50%;
+	min-height: 400px;
 }
 
 .list {
