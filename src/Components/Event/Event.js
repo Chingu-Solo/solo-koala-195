@@ -5,13 +5,13 @@ import ListEvent from "./ListEvent";
 import Modal from "./Modal";
 import classes from "./Event.module.css";
 
-const Event = ({ date }) => {
+const Event = ({ date, events }) => {
 	return (
 		<div className={classes.container}>
 			<div className={classes.transBack} />
 			<SingnIn />
 			<Date date={date} />
-			<ListEvent />
+			<ListEvent events={events} />
 			<Modal />
 		</div>
 	);

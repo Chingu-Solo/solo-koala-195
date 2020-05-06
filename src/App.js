@@ -8,7 +8,11 @@ class App extends Component {
 		dateCalendar: new Date(),
 		dateEvent: new Date(),
 		selected: new Date().getDate(),
-		events: [],
+		events: [
+			{ id: 1, begin: "10:30", title: "Goat Yoga" },
+			{ id: 2, begin: "11:00", title: "Hot Yoga" },
+			{ id: 3, begin: "11:30", title: "Perpetual Yoga" },
+		],
 	};
 
 	handleArrowClick = (param) => {
@@ -36,7 +40,7 @@ class App extends Component {
 					handleDayClick={this.handleDayClick}
 					selected={this.state.selected}
 				/>
-				<Event date={this.state.dateEvent} />
+				<Event date={this.state.dateEvent} events={this.state.events} />
 			</div>
 		);
 	}

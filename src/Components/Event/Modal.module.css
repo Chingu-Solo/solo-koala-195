@@ -1,10 +1,10 @@
 .container {
-	text-align: center;
 	padding: 30px 0;
 	margin-top: 20px;
 }
 
 .plus {
+	text-align: center;
 	opacity: 0.4;
 	transition: all 0.4s;
 	position: relative;
@@ -31,7 +31,64 @@
 	width: 60%;
 	height: 500px;
 	margin: 0 auto;
-	background-color: #f2f1ed;
+	background-color: white;
 	box-shadow: -5px 4px 19px -5px rgba(0, 0, 0, 0.75);
+}
+/**********************/
+.form {
+	background-color: #f2f1ed;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	height: 100%;
+	width: 97%;
+	padding: 50px 30px;
+}
+
+.inputContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.dateContainer,
+.timeContainer {
+	width: 100%;
+}
+
+.dateContainer label,
+.timeContainer label {
+	display: inline-block;
+	width: 50%;
+}
+
+.dateContainer input,
+.timeContainer input {
+	width: 50%;
+	padding-left: 5px;
+}
+
+label {
+	width: 25%;
+	padding-left: 10px;
+}
+
+input {
+	width: 75%;
+	padding: 10px 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
+}
+
+.btnContainer {
+	padding-left: 25%;
+}
+
+.btnContainer button {
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: white;
+	width: 200px;
+	border-radius: 5px;
+	font-size: 1.1em;
+	box-shadow: 4px 4px 20px -7px rgba(0, 0, 0, 0.75);
 }
