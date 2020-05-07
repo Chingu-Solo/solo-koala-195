@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80d19b0c209bf28be0001d6d04713060",
+    "revision": "244b7006d1dccf9d29ca13f758112364",
     "url": "/solo-koala-195/index.html"
   },
   {
-    "revision": "7460e13f3ad07edacbce",
-    "url": "/solo-koala-195/static/css/main.e743802e.chunk.css"
+    "revision": "0528d38c8c9a89dbcba6",
+    "url": "/solo-koala-195/static/css/main.801f9f29.chunk.css"
   },
   {
     "revision": "781c9646c9940b20cc91",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/solo-koala-195/static/js/2.55ad2edc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7460e13f3ad07edacbce",
+    "revision": "0528d38c8c9a89dbcba6",
     "url": "/solo-koala-195/static/js/main.a673923f.chunk.js"
   },
   {
     "revision": "497187c83e3638c73e5f",
     "url": "/solo-koala-195/static/js/runtime-main.c6f5ec08.js"
+  },
+  {
+    "revision": "49d0803cd8f2d8a9ae0421b07ff49bc5",
+    "url": "/solo-koala-195/static/media/autumn.49d0803c.jpg"
   }
 ]);
