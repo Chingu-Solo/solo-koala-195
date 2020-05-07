@@ -4,6 +4,8 @@ This project is the front-end part of an appointment managing app created with t
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**Link** : https://chingu-solo.github.io/solo-koala-195/
+
 ## Dependecies
 
 - React
