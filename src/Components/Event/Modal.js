@@ -56,22 +56,22 @@ class Modal extends Component {
 									<label>Title:</label>
 									<input type="text" name="title" required />
 								</div>
-								<div className={classes.inputContainer}>
-									<div className={classes.dateContainer}>
+								<div className={classes.dateContainer}>
+									<div>
 										<label>Start Date :</label>
 										<input type="date" name="startDate" required />
 									</div>
-									<div className={classes.dateContainer}>
+									<div>
 										<label>End Date :</label>
 										<input type="date" name="endDate" required />
 									</div>
 								</div>
-								<div className={classes.inputContainer}>
-									<div className={classes.timeContainer}>
+								<div className={classes.timeContainer}>
+									<div>
 										<label>Begins:</label>
 										<input type="time" name="begin" />
 									</div>
-									<div className={classes.timeContainer}>
+									<div>
 										<label>Ends:</label>
 										<input type="time" name="end" />
 									</div>

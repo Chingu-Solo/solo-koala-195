@@ -34,6 +34,13 @@
 	background-color: white;
 	box-shadow: -5px 4px 19px -5px rgba(0, 0, 0, 0.75);
 }
+
+@media (max-width: 768px) {
+	.modal_content {
+		width: 80%;
+	}
+}
+
 /**********************/
 .form {
 	background-color: #f2f1ed;
@@ -44,30 +51,11 @@
 }
 
 .inputContainer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	margin: 20px 0;
 }
 
-.dateContainer,
-.timeContainer {
-	width: 100%;
-}
-
-.dateContainer label,
-.timeContainer label {
-	display: inline-block;
-	width: 50%;
-}
-
-.dateContainer input,
-.timeContainer input {
-	width: 50%;
-	padding-left: 5px;
-}
-
 label {
+	display: inline-block;
 	width: 25%;
 	padding-left: 10px;
 }
@@ -77,6 +65,28 @@ input {
 	padding: 10px 0;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
+}
+
+.dateContainer,
+.timeContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.dateContainer div,
+.timeContainer div {
+	width: 100%;
+}
+
+.dateContainer label,
+.timeContainer label {
+	width: 50%;
+}
+
+.dateContainer input,
+.timeContainer input {
+	width: 50%;
 }
 
 .btnContainer {
@@ -91,4 +101,22 @@ input {
 	border-radius: 5px;
 	font-size: 1.1em;
 	box-shadow: 4px 4px 20px -7px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 550px) {
+	.form {
+		padding-top: 5px;
+	}
+	.dateContainer,
+	.timeContainer {
+		display: block;
+	}
+	label,
+	input {
+		width: 50%;
+	}
+	.btnContainer {
+		padding-left: 0;
+		text-align: center;
+	}
 }
