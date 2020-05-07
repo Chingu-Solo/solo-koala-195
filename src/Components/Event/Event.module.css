@@ -1,6 +1,6 @@
 .container {
 	width: 35%;
-	background-image: url("http://localhost:3000/assets/images/autumn.jpg");
+	background-image: url("../Event/images/autumn.jpg");
 	background-position: left;
 	background-size: cover;
 	position: relative;
