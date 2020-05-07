@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/solo-koala-195/static/css/main.e743802e.chunk.css",
+    "main.js": "/solo-koala-195/static/js/main.a673923f.chunk.js",
+    "main.js.map": "/solo-koala-195/static/js/main.a673923f.chunk.js.map",
+    "runtime-main.js": "/solo-koala-195/static/js/runtime-main.c6f5ec08.js",
+    "runtime-main.js.map": "/solo-koala-195/static/js/runtime-main.c6f5ec08.js.map",
+    "static/js/2.55ad2edc.chunk.js": "/solo-koala-195/static/js/2.55ad2edc.chunk.js",
+    "static/js/2.55ad2edc.chunk.js.map": "/solo-koala-195/static/js/2.55ad2edc.chunk.js.map",
+    "index.html": "/solo-koala-195/index.html",
+    "precache-manifest.2000f02ac65d81e843e4d1d470b53d93.js": "/solo-koala-195/precache-manifest.2000f02ac65d81e843e4d1d470b53d93.js",
+    "service-worker.js": "/solo-koala-195/service-worker.js",
+    "static/css/main.e743802e.chunk.css.map": "/solo-koala-195/static/css/main.e743802e.chunk.css.map",
+    "static/js/2.55ad2edc.chunk.js.LICENSE.txt": "/solo-koala-195/static/js/2.55ad2edc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6f5ec08.js",
+    "static/js/2.55ad2edc.chunk.js",
+    "static/css/main.e743802e.chunk.css",
+    "static/js/main.a673923f.chunk.js"
+  ]
+}
