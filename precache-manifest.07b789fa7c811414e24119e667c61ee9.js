@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "244b7006d1dccf9d29ca13f758112364",
+    "revision": "12b605de2dba7855ce9836b6cac83f6c",
     "url": "/solo-koala-195/index.html"
   },
   {
