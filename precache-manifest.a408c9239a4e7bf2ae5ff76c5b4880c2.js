@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12b605de2dba7855ce9836b6cac83f6c",
+    "revision": "48d43475bfdc3fe2608792de75de3929",
     "url": "/solo-koala-195/index.html"
   },
   {
-    "revision": "0528d38c8c9a89dbcba6",
-    "url": "/solo-koala-195/static/css/main.801f9f29.chunk.css"
+    "revision": "1eaa50a4c92ce57f42d8",
+    "url": "/solo-koala-195/static/css/main.b457b619.chunk.css"
   },
   {
     "revision": "781c9646c9940b20cc91",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/solo-koala-195/static/js/2.55ad2edc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0528d38c8c9a89dbcba6",
+    "revision": "1eaa50a4c92ce57f42d8",
     "url": "/solo-koala-195/static/js/main.a673923f.chunk.js"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/solo-koala-195/static/js/runtime-main.c6f5ec08.js"
   },
   {
-    "revision": "49d0803cd8f2d8a9ae0421b07ff49bc5",
-    "url": "/solo-koala-195/static/media/autumn.49d0803c.jpg"
+    "revision": "40f3f692f7bbe80107436bb80449f02c",
+    "url": "/solo-koala-195/static/media/autumn-min.40f3f692.jpg"
   }
 ]);
