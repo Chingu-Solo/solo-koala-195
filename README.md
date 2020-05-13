@@ -87,7 +87,7 @@ _Other:_
 **Extras (Not Required)**
 
 - [x] Make your design fully responsive _(small/large/portrait/landscape, etc.)_
-- [ ] Optimized loading of calendar site (hint, consider the background image)
+- [x] Optimized loading of calendar site (hint, consider the background image)
 - [ ] Change the background image based on the season in which the current displayed month is part of
 
 ## 🚀 Deploy
