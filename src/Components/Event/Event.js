@@ -1,8 +1,8 @@
 import React from "react";
-import SingnIn from "./SignIn";
-import Date from "./DateComponent";
-import ListEvent from "./ListEvent";
-import Modal from "./Modal";
+import SingnIn from "./SignIn/SignIn";
+import Date from "./Date/DateComponent";
+import ListEvent from "./ListEvent/ListEvent";
+import Modal from "./Modal/Modal";
 import classes from "./Event.module.css";
 
 const Event = ({ date, events }) => {

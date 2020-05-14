@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./Header";
-import Months from "./Months";
-import Week from "./Week";
-import Days from "./Days";
+import Header from "./Header/Header";
+import Months from "./Months/Months";
+import Week from "./Week/Week";
+import Days from "./Days/Days";
 import classes from "./Calendar.module.css";
 
 const Calendar = ({

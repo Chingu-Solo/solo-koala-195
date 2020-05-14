@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Days.module.css";
-import Day from "./Day";
-import * as utils from "../../utils/utils";
+import Day from "../Day/Day";
+import * as utils from "../../../utils/utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import uniqid from "uniqid";
