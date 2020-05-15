@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/solo-koala-195/static/css/main.db173b7f.chunk.css",
-    "main.js": "/solo-koala-195/static/js/main.a9eb753f.chunk.js",
-    "main.js.map": "/solo-koala-195/static/js/main.a9eb753f.chunk.js.map",
+    "main.css": "/solo-koala-195/static/css/main.0fc945cc.chunk.css",
+    "main.js": "/solo-koala-195/static/js/main.aa2e19b9.chunk.js",
+    "main.js.map": "/solo-koala-195/static/js/main.aa2e19b9.chunk.js.map",
     "runtime-main.js": "/solo-koala-195/static/js/runtime-main.c6f5ec08.js",
     "runtime-main.js.map": "/solo-koala-195/static/js/runtime-main.c6f5ec08.js.map",
-    "static/js/2.2fbda9ca.chunk.js": "/solo-koala-195/static/js/2.2fbda9ca.chunk.js",
-    "static/js/2.2fbda9ca.chunk.js.map": "/solo-koala-195/static/js/2.2fbda9ca.chunk.js.map",
+    "static/js/2.4572f26e.chunk.js": "/solo-koala-195/static/js/2.4572f26e.chunk.js",
+    "static/js/2.4572f26e.chunk.js.map": "/solo-koala-195/static/js/2.4572f26e.chunk.js.map",
     "index.html": "/solo-koala-195/index.html",
-    "precache-manifest.bf516544e4479316ed9b158c4e7d8495.js": "/solo-koala-195/precache-manifest.bf516544e4479316ed9b158c4e7d8495.js",
+    "precache-manifest.43557ade03472b51556b09731f896e42.js": "/solo-koala-195/precache-manifest.43557ade03472b51556b09731f896e42.js",
     "service-worker.js": "/solo-koala-195/service-worker.js",
-    "static/css/main.db173b7f.chunk.css.map": "/solo-koala-195/static/css/main.db173b7f.chunk.css.map",
-    "static/js/2.2fbda9ca.chunk.js.LICENSE.txt": "/solo-koala-195/static/js/2.2fbda9ca.chunk.js.LICENSE.txt",
-    "static/media/Event.module.css": "/solo-koala-195/static/media/autumn-min.40f3f692.jpg"
+    "static/css/main.0fc945cc.chunk.css.map": "/solo-koala-195/static/css/main.0fc945cc.chunk.css.map",
+    "static/js/2.4572f26e.chunk.js.LICENSE.txt": "/solo-koala-195/static/js/2.4572f26e.chunk.js.LICENSE.txt",
+    "static/media/autumn-min.jpg": "/solo-koala-195/static/media/autumn-min.40f3f692.jpg",
+    "static/media/spring-min.jpg": "/solo-koala-195/static/media/spring-min.ea07e7eb.jpg",
+    "static/media/summer-min.jpg": "/solo-koala-195/static/media/summer-min.757c9dad.jpg",
+    "static/media/winter-min.jpg": "/solo-koala-195/static/media/winter-min.5de6455c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c6f5ec08.js",
-    "static/js/2.2fbda9ca.chunk.js",
-    "static/css/main.db173b7f.chunk.css",
-    "static/js/main.a9eb753f.chunk.js"
+    "static/js/2.4572f26e.chunk.js",
+    "static/css/main.0fc945cc.chunk.css",
+    "static/js/main.aa2e19b9.chunk.js"
   ]
 }
