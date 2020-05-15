@@ -40,7 +40,11 @@ class App extends Component {
 					handleDayClick={this.handleDayClick}
 					selected={this.state.selected}
 				/>
-				<Event date={this.state.dateEvent} events={this.state.events} />
+				<Event
+					dateE={this.state.dateEvent}
+					dateC={this.state.dateCalendar}
+					events={this.state.events}
+				/>
 			</div>
 		);
 	}
