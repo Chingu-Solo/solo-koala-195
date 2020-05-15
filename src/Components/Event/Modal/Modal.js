@@ -53,40 +53,63 @@ class Modal extends Component {
 								onSubmit={(e) => this.handleSubmit(e)}
 							>
 								<div className={classes.inputContainer}>
-									<label>Title:</label>
-									<input type="text" name="title" required />
+									<label className={classes.label}>Title:</label>
+									<input
+										className={classes.input}
+										type="text"
+										name="title"
+										required
+									/>
 								</div>
 								<div className={classes.dateContainer}>
 									<div>
-										<label>Start Date :</label>
-										<input type="date" name="startDate" required />
+										<label className={classes.label}>Start Date :</label>
+										<input
+											className={classes.input}
+											type="date"
+											name="startDate"
+											required
+										/>
 									</div>
 									<div>
-										<label>End Date :</label>
-										<input type="date" name="endDate" required />
+										<label className={classes.label}>End Date :</label>
+										<input
+											className={classes.input}
+											type="date"
+											name="endDate"
+											required
+										/>
 									</div>
 								</div>
 								<div className={classes.timeContainer}>
 									<div>
-										<label>Begins:</label>
-										<input type="time" name="begin" />
+										<label className={classes.label}>Begins:</label>
+										<input className={classes.input} type="time" name="begin" />
 									</div>
 									<div>
-										<label>Ends:</label>
-										<input type="time" name="end" />
+										<label className={classes.label}>Ends:</label>
+										<input className={classes.input} type="time" name="end" />
 									</div>
 								</div>
 								<div className={classes.inputContainer}>
-									<label>People:</label>
-									<input type="text" name="people" />
+									<label className={classes.label}>People:</label>
+									<input className={classes.input} type="text" name="people" />
 								</div>
 								<div className={classes.inputContainer}>
-									<label>Location:</label>
-									<input type="text" name="location" />
+									<label className={classes.label}>Location:</label>
+									<input
+										className={classes.input}
+										type="text"
+										name="location"
+									/>
 								</div>
 								<div className={classes.inputContainer}>
-									<label>Description:</label>
-									<input type="text" name="description" />
+									<label className={classes.label}>Description:</label>
+									<input
+										className={classes.input}
+										type="text"
+										name="description"
+									/>
 								</div>
 								<div className={classes.btnContainer}>
 									<button type="submit">Add Event</button>

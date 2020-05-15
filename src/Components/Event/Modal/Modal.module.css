@@ -54,13 +54,14 @@
 	margin: 20px 0;
 }
 
-label {
+.label {
 	display: inline-block;
 	width: 25%;
 	padding-left: 10px;
+	font-weight: bold;
 }
 
-input {
+.input {
 	width: 75%;
 	padding: 10px 0;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -111,8 +112,8 @@ input {
 	.timeContainer {
 		display: block;
 	}
-	label,
-	input {
+	.label,
+	.input {
 		width: 50%;
 	}
 	.btnContainer {

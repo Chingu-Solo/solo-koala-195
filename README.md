@@ -13,6 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React-Scripts
 - uniqid
 - react-fontawesome
+- formik
+- Yup
 
 ## Installation
 
